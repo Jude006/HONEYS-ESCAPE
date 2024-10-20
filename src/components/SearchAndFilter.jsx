@@ -266,7 +266,7 @@ function SearchAndFilter() {
             onClick={closeModal}
           >
             <motion.div
-              className="bg-white p-6 rounded-lg  md:w-[60%] md:max-h-[80vh] mt-16 mx-auto relative"
+              className="bg-white p-6 rounded-lg  md:w-[60%] md:max-h-[80vh] max-h-[75%] overflow-auto mt-16 mx-auto relative"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ type: "spring", stiffness: 100 }}
