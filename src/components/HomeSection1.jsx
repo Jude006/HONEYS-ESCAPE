@@ -4,8 +4,8 @@ import { motion } from "framer-motion"; // Import framer-motion
 
 function HomeSection1() {
   return (
-    <div className="w-full font-mont overflow-hidden">
-      <div className="grid grid-cols-12 gap-10 mt-16 items-center ">
+    <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 px-4">
+      <div className="grid grid-cols-12 gap-14 mt-16 items-center ">
         <motion.div
           className="md:col-span-7 col-span-12 flex flex-col gap-8  px-4"
           initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and moved down

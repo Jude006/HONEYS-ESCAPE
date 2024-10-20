@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Popup = ({ closePopup, selectedProduct }) => {
   return (
     <div>
-      <div className="max-w-[80%] bg-secondary h-[80vh] overflow-y-auto py-6 px-10 mx-auto mt-14 z-30 rounded shadow font-Montserrat">
+      <div className="md:max-w-[80%] max-w-[95%] bg-secondary h-[80vh] overflow-y-auto py-6 px-10 mx-auto mt-14 z-30 rounded shadow font-Montserrat">
         <div className="flex justify-end cursor-pointer" onClick={closePopup}>
           <h1 className="place-self-end md:text-3xl text-xl text-accent">
             <FaTimes />
