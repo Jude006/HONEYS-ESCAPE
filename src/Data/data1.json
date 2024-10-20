@@ -1,0 +1,106 @@
+[
+    {
+      "id": 1,
+      "name": "Dubai, UAE",
+      "image": "/images/destination1.jpg", 
+      "shortDescription": "Discover the luxurious lifestyle and architectural marvels of Dubai.",
+      "date": "March 15, 2024",
+      "starRating": 5,
+      "details": {
+        "longDescription": "Dubai is known for its ultramodern architecture, luxury shopping, and vibrant nightlife scene. The Burj Khalifa, the tallest building in the world, dominates the skyline, while the man-made Palm Islands and Dubai Marina offer spectacular coastal views.",
+        "additionalImages": [
+          "/images/destination1.jpg",
+          "/images/destination1a.jpg"
+        ],
+        "topAttraction": "Burj Khalifa",
+        "recommendedDuration": "3-5 days"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Santorini, Greece",
+      "image": "/images/destination2.jpg",
+      "shortDescription": "Discover breathtaking sunsets and iconic whitewashed buildings.",
+      "date": "April 20, 2024",
+      "starRating": 4.5,
+      "details": {
+        "longDescription": "Santorini, famous for its stunning sunsets, offers beautiful views of the Aegean Sea. This picturesque island is known for its charming villages with blue-domed churches and rich history.",
+        "additionalImages": [
+         "/images/destination2.jpg",
+          "/images/destination2a.jpg"
+        ],
+        "topAttraction": "Oia Village",
+        "recommendedDuration": "2-4 days"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kyoto, Japan",
+      "image":  "/images/destination3.jpg",
+      "shortDescription": "Immerse yourself in the rich history of Kyoto, Japan's ancient capital.",
+      "date": "May 10, 2024",
+      "starRating": 4.8,
+      "details": {
+        "longDescription": "Kyoto is known for its classical Buddhist temples, gardens, and traditional wooden houses. With its beautiful cherry blossoms in spring, Kyoto is a cultural treasure.",
+        "additionalImages": [
+            "/images/destination3.jpg",
+             "/images/destination3a.avif"
+           ],
+        "topAttraction": "Arashiyama Bamboo Grove",
+        "recommendedDuration": "3-4 days"
+      }
+    },
+    {
+      "id": 4,
+      "name": "New York City, USA",
+      "image":  "/images/destination4.jpg",
+      "shortDescription": "Explore the vibrant streets and iconic landmarks of NYC.",
+      "date": "June 5, 2024",
+      "starRating": 4.7,
+      "details": {
+        "longDescription": "New York City is a bustling metropolis filled with world-famous attractions like Times Square, Central Park, and the Statue of Liberty.",
+        "additionalImages": [
+            "/images/destination4.jpg",
+             "/images/destination4a.jpg"
+           ],
+        "topAttraction": "Statue of Liberty",
+        "recommendedDuration": "4-5 days"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cape Town, South Africa",
+      "image":   "/images/destination5.jpg",
+      "shortDescription": "Witness stunning landscapes and rich history in Cape Town.",
+      "date": "July 15, 2024",
+      "starRating": 4.6,
+      "details": {
+        "longDescription": "Cape Town, known for its iconic Table Mountain, is a vibrant city that offers beautiful beaches and wine tours in the Cape Winelands.",
+        "additionalImages": [
+            "/images/destination5.jpg",
+             "/images/destination5a.jpg"
+           ],
+        "topAttraction": "Table Mountain",
+        "recommendedDuration": "3-5 days"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sydney, Australia",
+      "image": "/images/destination6.jpg",
+      "shortDescription": "Explore the iconic sights and beautiful beaches of Sydney.",
+      "date": "August 25, 2024",
+      "starRating": 4.9,
+      "details": {
+        "additionalImages": [
+          "/images/destination6.jpg",
+          "/images/destination6a.jpg"
+        ],
+        "topAttraction": "Sydney Opera House",
+        "recommendedDuration": "4-6 days",
+        "longDescription": "Sydney, Australia, is a vibrant and cosmopolitan city that combines the energy of urban life with the laid-back charm of its stunning beaches and natural surroundings."
+      }
+    }
+    
+  ]
+  

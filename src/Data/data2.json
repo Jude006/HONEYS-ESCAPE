@@ -1,0 +1,243 @@
+[
+    {
+      "id": 1,
+      "name": "Queenstown, New Zealand",
+      "image": "/images/slide1.webp",
+      "starRating": 4.8,
+      "reviews": {
+        "amount": 1200,
+        "title": "Adventurer's Paradise!"
+      },
+      "shortDescription": "Experience stunning landscapes and thrilling adventures.",
+      "longDescription": "Queenstown, known as the adventure capital of the world, is surrounded by the breathtaking Southern Alps and the beautiful Lake Wakatipu. This vibrant town offers a plethora of activities, including bungee jumping, skydiving, and skiing in winter. Enjoy wine tasting at local vineyards, take scenic cruises on the lake, and explore the rich Maori culture. Whether you seek adrenaline-pumping activities or serene nature experiences, Queenstown has it all.",
+      "amount": "$1500",
+      "detailsLink": "/destinations/queenstown",
+      "attractions": [
+        "Bungee Jumping at Kawarau Bridge",
+        "Skydiving over Lake Wakatipu",
+        "Milford Sound Day Tour",
+        "Glenorchy Scenic Adventures",
+        "Wine Tasting in Gibbston Valley"
+      ],
+      "country": "New Zealand",
+      "activityType": ["Adventure", "Nature", "Culture"],
+      "season": ["Summer", "Winter"]
+    },
+    {
+      "id": 2,
+      "name": "Marrakech, Morocco",
+      "image": "/images/slide2.webp",
+      "starRating": 4.6,
+      "reviews": {
+        "amount": 950,
+        "title": "A Journey into the Vibrant Culture!"
+      },
+      "shortDescription": "Discover the enchanting sights and sounds of Marrakech.",
+      "longDescription": "Marrakech is a vibrant city that blends rich history with a lively atmosphere. From the bustling souks to the stunning gardens, there’s much to explore. Visit the famous Jardin Majorelle, the stunning Bahia Palace, and the Koutoubia Mosque. Immerse yourself in the local culture with traditional Moroccan cuisine and enchanting evening entertainment in Djemaa el-Fna square. Whether you are wandering through the maze-like streets or relaxing in a luxurious riad, Marrakech promises an unforgettable experience.",
+      "amount": "$1300",
+      "detailsLink": "/destinations/marrakech",
+      "attractions": [
+        "Jardin Majorelle",
+        "Koutoubia Mosque",
+        "Saadian Tombs",
+        "Djemaa el-Fna Square",
+        "Atlas Mountains Day Trip"
+      ],
+      "country": "Morocco",
+      "activityType": ["Cultural", "Nature", "Food"],
+      "season": ["Spring", "Fall"]
+    },
+    {
+      "id": 3,
+      "name": "Hanoi, Vietnam",
+      "image": "/images/slide3.webp",
+      "starRating": 4.7,
+      "reviews": {
+        "amount": 1100,
+        "title": "A City of Contrasts!"
+      },
+      "shortDescription": "Experience the rich culture and history of Hanoi.",
+      "longDescription": "Hanoi, the capital of Vietnam, is a city where ancient history meets modern charm. Stroll through the Old Quarter, where French colonial architecture mingles with traditional Vietnamese culture. Visit iconic landmarks such as Hoan Kiem Lake, the Ho Chi Minh Mausoleum, and the Temple of Literature. Enjoy street food like Pho and Bun Cha, and experience the bustling night markets. Hanoi serves as a gateway to explore the natural beauty of Ha Long Bay, making it an ideal destination for travelers.",
+      "amount": "$1000",
+      "detailsLink": "/destinations/hanoi",
+      "attractions": [
+        "Hoan Kiem Lake",
+        "Ho Chi Minh Mausoleum",
+        "Temple of Literature",
+        "Old Quarter",
+        "Ha Long Bay Day Trip"
+      ],
+      "country": "Vietnam",
+      "activityType": ["Cultural", "Food", "Adventure"],
+      "season": ["Spring", "Fall"]
+    },
+    {
+      "id": 4,
+      "name": "Reykjavik, Iceland",
+      "image": "/images/slide4.webp",
+      "starRating": 4.8,
+      "reviews": {
+        "amount": 800,
+        "title": "Nature's Wonders Await!"
+      },
+      "shortDescription": "Explore stunning landscapes and unique culture in Reykjavik.",
+      "longDescription": "Reykjavik, the capital of Iceland, is the perfect starting point to explore this incredible country. Known for its colorful buildings and vibrant arts scene, the city offers numerous museums, galleries, and geothermal pools. Discover the Blue Lagoon, take a whale watching tour, or venture out to see the Northern Lights during winter months. Reykjavik's unique blend of urban life and proximity to breathtaking natural wonders makes it an essential destination for any traveler.",
+      "amount": "$1600",
+      "detailsLink": "/destinations/reykjavik",
+      "attractions": [
+        "Blue Lagoon",
+        "Golden Circle Tour",
+        "Northern Lights Tour",
+        "Whale Watching",
+        "Hallgrimskirkja Church"
+      ],
+      "country": "Iceland",
+      "activityType": ["Nature", "Adventure", "Wellness"],
+      "season": ["Summer", "Winter"]
+    },
+    {
+      "id": 5,
+      "name": "Buenos Aires, Argentina",
+      "image": "/images/h1.jpeg",
+      "starRating": 4.5,
+      "reviews": {
+        "amount": 700,
+        "title": "The Paris of South America!"
+      },
+      "shortDescription": "Immerse yourself in the vibrant culture and cuisine.",
+      "longDescription": "Buenos Aires, the capital of Argentina, is known for its rich cultural life and European-style architecture. Discover the lively neighborhoods of La Boca and San Telmo, where tango music fills the streets. Enjoy delicious Argentine cuisine, including world-renowned steaks and empanadas. Visit historic sites like Plaza de Mayo and the iconic Obelisco, or take in a football match at La Bombonera. Buenos Aires offers a unique mix of culture, food, and passion, making it a must-visit destination.",
+      "amount": "$1400",
+      "detailsLink": "/destinations/buenos-aires",
+      "attractions": [
+        "La Boca Neighborhood",
+        "San Telmo Market",
+        "Palermo Parks",
+        "Tango Shows",
+        "Football Matches"
+      ],
+      "country": "Argentina",
+      "activityType": ["Cultural", "Food", "Entertainment"],
+      "season": ["Spring", "Fall"]
+    },
+    {
+      "id": 6,
+      "name": "Cappadocia, Turkey",
+      "image": "https://source.unsplash.com/featured/?cappadocia",
+      "starRating": 4.9,
+      "reviews": {
+        "amount": 500,
+        "title": "A Fairy Tale Landscape!"
+      },
+      "shortDescription": "Discover unique rock formations and hot air balloon rides.",
+      "longDescription": "Cappadocia is a region in central Turkey known for its otherworldly landscapes, fairy chimneys, and rock-cut churches. Take a hot air balloon ride at sunrise for breathtaking views of the valleys and unique rock formations. Explore the underground cities and ancient cave dwellings, and hike through Ihlara Valley to see stunning natural beauty. Cappadocia's unique geology and rich history make it an unforgettable travel destination.",
+      "amount": "$1300",
+      "detailsLink": "/destinations/cappadocia",
+      "attractions": [
+        "Hot Air Balloon Ride",
+        "Goreme Open-Air Museum",
+        "Uchisar Castle",
+        "Ihlara Valley Hike",
+        "Underground Cities"
+      ],
+      "country": "Turkey",
+      "activityType": ["Adventure", "Nature", "Culture"],
+      "season": ["Spring", "Summer", "Fall"]
+    },
+    {
+      "id": 7,
+      "name": "Vancouver, Canada",
+      "image": "https://source.unsplash.com/featured/?vancouver",
+      "starRating": 4.7,
+      "reviews": {
+        "amount": 900,
+        "title": "Nature and City Life Combined!"
+      },
+      "shortDescription": "Explore stunning parks, mountains, and urban experiences.",
+      "longDescription": "Vancouver is a beautiful coastal city surrounded by mountains and ocean. Explore Stanley Park, one of the largest urban parks in North America, and enjoy scenic views of the city skyline and mountains. Visit Granville Island for local markets and arts, or take a day trip to Whistler for skiing or mountain biking. Vancouver offers a perfect blend of outdoor adventure and vibrant city life, making it a popular destination for travelers.",
+      "amount": "$1700",
+      "detailsLink": "/destinations/vancouver",
+      "attractions": [
+        "Stanley Park",
+        "Granville Island",
+        "Capilano Suspension Bridge",
+        "Whistler Blackcomb",
+        "Gastown District"
+      ],
+      "country": "Canada",
+      "activityType": ["Adventure", "Nature", "Culture"],
+      "season": ["Summer", "Winter"]
+    },
+    {
+      "id": 8,
+      "name": "Dubrovnik, Croatia",
+      "image": "https://source.unsplash.com/featured/?dubrovnik",
+      "starRating": 4.8,
+      "reviews": {
+        "amount": 1100,
+        "title": "The Pearl of the Adriatic!"
+      },
+      "shortDescription": "Discover the historic charm and stunning coastline.",
+      "longDescription": "Dubrovnik, a UNESCO World Heritage Site, is known for its well-preserved medieval architecture and stunning Adriatic coastline. Walk along the ancient city walls for panoramic views, explore the Old Town's cobblestone streets, and visit historic sites like the Rector's Palace and Sponza Palace. Enjoy fresh seafood at local restaurants and take boat trips to nearby islands. Dubrovnik's rich history and natural beauty make it a must-see destination.",
+      "amount": "$1900",
+      "detailsLink": "/destinations/dubrovnik",
+      "attractions": [
+        "Old Town",
+        "City Walls",
+        "Sponza Palace",
+        "Rector's Palace",
+        "Lokrum Island Day Trip"
+      ],
+      "country": "Croatia",
+      "activityType": ["Cultural", "Nature", "Beach"],
+      "season": ["Summer", "Fall"]
+    },
+    {
+      "id": 9,
+      "name": "Santorini, Greece",
+      "image": "https://source.unsplash.com/featured/?santorini",
+      "starRating": 4.9,
+      "reviews": {
+        "amount": 800,
+        "title": "A Dreamy Island Getaway!"
+      },
+      "shortDescription": "Experience stunning sunsets and beautiful beaches.",
+      "longDescription": "Santorini is one of the most picturesque islands in the Aegean Sea, famous for its white-washed buildings with blue domes. Enjoy breathtaking sunsets in Oia, relax on the unique black and red sand beaches, and explore the ancient ruins of Akrotiri. Experience traditional Greek cuisine at local tavernas and enjoy wine tasting at local vineyards. Santorini offers a perfect blend of relaxation, adventure, and romance, making it an ideal destination for couples.",
+      "amount": "$2200",
+      "detailsLink": "/destinations/santorini",
+      "attractions": [
+        "Oia Village",
+        "Red Beach",
+        "Ancient Akrotiri",
+        "Wine Tasting Tours",
+        "Caldera Cruise"
+      ],
+      "country": "Greece",
+      "activityType": ["Beach", "Cultural", "Romance"],
+      "season": ["Spring", "Summer", "Fall"]
+    },
+    {
+      "id": 10,
+      "name": "Kyoto, Japan",
+      "image": "https://source.unsplash.com/featured/?kyoto",
+      "starRating": 4.7,
+      "reviews": {
+        "amount": 950,
+        "title": "A Glimpse into Japan's Past!"
+      },
+      "shortDescription": "Discover ancient temples and traditional tea houses.",
+      "longDescription": "Kyoto, once the capital of Japan, is a city rich in history and culture. Visit stunning temples like Kinkaku-ji (the Golden Pavilion) and Fushimi Inari Taisha with its thousands of torii gates. Experience traditional tea ceremonies, explore the beautiful Arashiyama Bamboo Grove, and enjoy the cherry blossoms in spring. Kyoto’s blend of ancient traditions and beautiful landscapes makes it a must-visit destination for anyone interested in Japanese culture.",
+      "amount": "$1800",
+      "detailsLink": "/destinations/kyoto",
+      "attractions": [
+        "Kinkaku-ji Temple",
+        "Fushimi Inari Taisha",
+        "Arashiyama Bamboo Grove",
+        "Nijo Castle",
+        "Gion District"
+      ],
+      "country": "Japan",
+      "activityType": ["Cultural", "Nature", "Food"],
+      "season": ["Spring", "Fall"]
+    }
+  ]
+  
