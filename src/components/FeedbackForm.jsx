@@ -6,7 +6,7 @@ const FeedbackForm = () => {
           {/* Image Section */}
           <div className="flex flex-col justify-center items-center">
             <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
-              <img src="/images/fee.avif" alt="Travel Destination 1" className="rounded-lg bg-red-400 shadow-lg object-cover " />
+              <img src="/images/fee.avif" alt="Travel Destination 1" className="rounded-lg  shadow-lg object-cover " />
               <img src="/images/fee.jpg" alt="Travel Destination 2" className="rounded-lg shadow-lg object-cover h-[100%]" />
             </div>
           </div>

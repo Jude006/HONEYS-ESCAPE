@@ -118,7 +118,7 @@ const Testimonies = () => {
                 />
 
                 {/* Semi-transparent Overlay */}
-                <div className="absolute h-[20vh] font-Montserrat bg-primary bg-opacity-70 w-full bottom-0 flex flex-col justify-center p-4">
+                <div className="absolute h-[20vh] font-Montserrat bg-primary bg-opacity-70 w-full bottom-0 flex flex-col justify-center px-4 py-6">
                   <div className="text-white">
                     <p className="italic font-Montserrat">"{testimony.text}"</p>
                     <h4 className="mt-2 font-bold font-poppins">

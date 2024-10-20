@@ -40,7 +40,7 @@ function SpecialOffers() {
         >
           {/* Seasonal Offer */}
           <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
+            className="bg-white md:px-6 px-2 py-8 rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
@@ -62,7 +62,7 @@ function SpecialOffers() {
 
           {/* Group Discount */}
           <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
+            className="bg-white md:px-6 px-2 py-8   rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
@@ -84,7 +84,7 @@ function SpecialOffers() {
 
           {/* Early Bird Special */}
           <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
+            className="bg-white md:px-6 px-2 py-8   rounded-lg shadow-lg flex flex-col items-center text-center transition-transform"
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >

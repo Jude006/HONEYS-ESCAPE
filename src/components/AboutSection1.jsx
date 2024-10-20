@@ -11,7 +11,7 @@ const AboutSection1 = () => {
         <h1 className="text-4xl font-bold text-primary mb-6 font-poppins text-center">
           Why Choose <span className="text-accent">Honey Guard</span>?
         </h1>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:px-10 lg:px-20 px-8">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:px-10 lg:px-20 px-2">
           {/* Image Section */}
           <div className="w-full">
             <img
