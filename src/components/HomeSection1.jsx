@@ -4,34 +4,34 @@ import { motion } from "framer-motion"; // Import framer-motion
 
 function HomeSection1() {
   return (
-    <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 ">
-      <div className="grid grid-cols-12 gap-14 mt-16 items-center ">
+    <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 px-4 md:mt-24 mt-20">
+      <div className="grid grid-cols-12 md:gap-10 gap-0 mt-16 items-center ">
         <motion.div
-          className="md:col-span-7 col-span-12 flex flex-col gap-8  px-6"
+          className="md:col-span-7 col-span-12 flex flex-col gap-8 md:mb-0 mb-10"
           initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and moved down
           whileInView={{ opacity: 1, y: 0 }} // Animate to full opacity and original position
           viewport={{ once: false }} // Keeps the animation active when in view
           transition={{ duration: 0.8 }} // Duration of the animation
         >
           <div>
-            <p className="text-accent font-poppins md:text-2xl text-lg uppercase">
+            <p className="text-accent font-playfair md:text-2xl text-lg uppercase">
               Your Next Adventure Awaits You
             </p>
           </div>
-          <div className=" ">
-            <p className="md:text-3xl lg:text-4xl font-poppins  text-lg font-bold uppercase ">
+          <div>
+            <p className="md:text-3xl lg:text-4xl font-poppins text-lg font-bold uppercase">
               Discover the <span className="text-accent">world</span> with our guide
             </p>
           </div>
           <div>
-            <p className="md:text-[16px] text-[15px] text-tertiary font-Montserrat max-w-[80%]">
+            <p className="md:text-[16px] text-[15px] text-tertiary font-Montserrat md:max-w-[80%] max-w-[100%]">
               At Honey Guide, we believe that every journey should be more than
               just a vacation – it should be an experience that leaves you with
               memories for a lifetime. Whether you're seeking the thrill of
               adventure, the calm of nature, or the excitement of discovering
               new cultures, we are here to craft the perfect trip for you.
             </p>
-            <p className="md:text-[16px] text-[15px] text-tertiary max-w-[80%] mt-4 font-Montserrat">
+            <p className="md:text-[16px] text-[15px] text-tertiary md:max-w-[80%] max-w-[100%] mt-4 font-Montserrat">
               Explore our hand-picked destinations, designed for travelers just
               like you. Discover hidden gems, indulge in local cuisines, and
               immerse yourself in unique cultures – all with the convenience and
@@ -56,7 +56,7 @@ function HomeSection1() {
         </motion.div>
 
         <motion.div
-          className="md:col-span-5 col-span-12 md:px-0 px-6"
+          className="md:col-span-5 col-span-12 md:px-0 px-2"
           initial={{ opacity: 0, scale: 0.9 }} // Start with scale 0.9 and opacity 0
           whileInView={{ opacity: 1, scale: 1 }} // Animate to full scale and opacity
           viewport={{ once: false }} // Keeps the animation active when in view
