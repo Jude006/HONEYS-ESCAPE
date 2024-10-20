@@ -7,7 +7,7 @@ function HomeSection1() {
     <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 ">
       <div className="grid grid-cols-12 gap-14 mt-16 items-center ">
         <motion.div
-          className="md:col-span-7 col-span-12 flex flex-col gap-8  px-2"
+          className="md:col-span-7 col-span-12 flex flex-col gap-8  px-4"
           initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and moved down
           whileInView={{ opacity: 1, y: 0 }} // Animate to full opacity and original position
           viewport={{ once: false }} // Keeps the animation active when in view
