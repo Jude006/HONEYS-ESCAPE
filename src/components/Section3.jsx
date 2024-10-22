@@ -80,7 +80,7 @@ const Section3 = () => {
                 {/* Book Now Button */}
                 <div className="mt-4 animate-slide-up">
                 <Link to='/contact'>
-                <button   className="px-6 py-3 bg-accent text-secondary font-semibold rounded-full hover:bg-primary hover:text-white transition-colors duration-300 ease-in-out" >
+                <button   className="px-6 py-3 bg-accent text-primary font-semibold rounded-full hover:bg-primary hover:text-white transition-colors duration-300 ease-in-out" >
                     {destination.buttonText}
                   </button>
                 </Link>

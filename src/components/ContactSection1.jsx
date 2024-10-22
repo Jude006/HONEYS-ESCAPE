@@ -6,7 +6,7 @@ import Button from "./Button";
 function ContactSection1() {
   return (
     <div>
-      <section className="grid grid-cols-12 gap-8 font-Montserrat">
+      <section className="grid grid-cols-12  font-Montserrat">
         <div className="md:col-span-7 col-span-12">
           <div>
             <h1 className="text-tertiary font-normal md:text-3xl font-poppins">
@@ -50,13 +50,13 @@ function ContactSection1() {
             </div>
           </div>
         </div>
-        <div className="md:col-span-5 col-span-12">
+        <div className="md:col-span-5 col-span-12 md:mt-0 mt-14">
           <form
             action="https://formspree.io/f/mwpedvzl"
             method="POST"
             className="shadow"
           >
-            <div className="py-5 bg-accent text-center">
+            <div className="py-5 bg-primary text-center">
               <h1 className="text-secondary md:text-3xl text-2xl">
                 Get In Touch
               </h1>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Import framer-motion
 
 function HomeSection1() {
   return (
-    <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 px-4 md:mt-24 mt-20">
+    <div className="w-full font-mont overflow-hidden md:px-10 lg:px-20 px-4 md:mt-24 mt-20 text-primary">
       <div className="grid grid-cols-12 md:gap-10 gap-0 mt-16 items-center ">
         <motion.div
           className="md:col-span-7 col-span-12 flex flex-col gap-8 md:mb-0 mb-10"
@@ -24,14 +24,14 @@ function HomeSection1() {
             </p>
           </div>
           <div>
-            <p className="md:text-[16px] text-[15px] text-tertiary font-Montserrat md:max-w-[80%] max-w-[100%]">
+            <p className="md:text-[16px] text-[15px] text-primary font-Montserrat md:max-w-[80%] max-w-[100%]">
               At Honey Guide, we believe that every journey should be more than
               just a vacation – it should be an experience that leaves you with
               memories for a lifetime. Whether you're seeking the thrill of
               adventure, the calm of nature, or the excitement of discovering
               new cultures, we are here to craft the perfect trip for you.
             </p>
-            <p className="md:text-[16px] text-[15px] text-tertiary md:max-w-[80%] max-w-[100%] mt-4 font-Montserrat">
+            <p className="md:text-[16px] text-[15px] text-primary md:max-w-[80%] max-w-[100%] mt-4 font-Montserrat">
               Explore our hand-picked destinations, designed for travelers just
               like you. Discover hidden gems, indulge in local cuisines, and
               immerse yourself in unique cultures – all with the convenience and
@@ -62,7 +62,7 @@ function HomeSection1() {
           viewport={{ once: false }} // Keeps the animation active when in view
           transition={{ duration: 0.8 }} // Duration of the animation
         >
-          <div className="bg-accent w-full h-[65vh] relative ">
+          <div className="bg-secondary w-full h-[65vh] relative ">
             <img
               src="/images/h1.jpeg"
               alt="image"

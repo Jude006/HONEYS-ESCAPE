@@ -90,7 +90,7 @@ const HomeLandingPage = ({bg, color,title}) => {
             whileTap={{ scale: 0.95 }}
             className="mt-8  font-poppins"
           >
-           <Button bg='bg-accent' color='text-secondary' title='Contact us' />
+           <Button bg='bg-accent' color='text-primary' title='Contact us' />
           </motion.div>
           </Link>
         </div>

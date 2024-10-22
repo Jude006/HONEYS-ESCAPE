@@ -29,7 +29,7 @@ function Navbar() {
     <nav
       className={`font-poppins flex flex-col  justify-between w-full left-0 z-50 transition-all mx-auto duration-300 ${
         isSticky
-          ? "fixed duration-300 ease-in-out bg-accent py-3 text-secondary shadow-lg"
+          ? "fixed duration-300 ease-in-out bg-primary py-3 text-secondary shadow-lg"
           : "absolute top-6 text-secondary bg-transparent"
       }`}
     >
@@ -39,49 +39,49 @@ function Navbar() {
             <h1 className={`cursor-pointer uppercase text-xl font-bold ${isSticky ? 'text-secondary' : 'text-secondary '}`} >
               Honey
               <span
-                className={`text-accent ${isSticky ? "text-white" : ""}`}
+                className={`text-accent ${isSticky ? "text-accent" : ""}`}
               >
-                Escape
+                Guide
               </span>
             </h1>
           </div>
         </Link>
         <div className="lg:flex hidden">
           <ul className="no-underline flex items-center md:text-[16px] text-[14px] lg:gap-[50px] md:gap-[30px] cursor-pointer">
-            <Link to="/">
-              <li className={isActive("/") ? "text-primary font-bold" : ""}>
+            <Link to="/" className="hover:text-hoverGreen duration-300 ease-linear">
+              <li className={isActive("/") ? "text-accent font-bold" : ""}>
                 Home
               </li>
             </Link>
-            <Link to="/about">
+            <Link to="/about" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
-                className={isActive("/about") ? "text-primary font-bold" : ""}
+                className={isActive("/about") ? "text-accent font-bold" : ""}
               >
                 About
               </li>
             </Link>
-            <Link to="/tripCatalog">
+            <Link to="/tripCatalog" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
-                  isActive("/tripCatalog") ? "text-primary font-bold" : ""
+                  isActive("/tripCatalog") ? "text-accent font-bold" : ""
                 }
               >
                 Trip Catalogue
               </li>
             </Link>
-            <Link to="/tourReview">
+            <Link to="/tourReview" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
-                  isActive("/tourReview") ? "text-primary font-bold" : ""
+                  isActive("/tourReview") ? "text-accent font-bold" : ""
                 }
               >
                 Tour Review
               </li>
             </Link>
-            <Link to="/contact">
+            <Link to="/contact" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
-                  isActive("/contact") ? "text-primary font-bold" : ""
+                  isActive("/contact") ? "text-accent font-bold" : ""
                 }
               >
                 Contact
@@ -90,21 +90,21 @@ function Navbar() {
           </ul>
         </div>
         <div className="cursor-pointer text-2xl flex gap-3">
-          <a
+          <a className="hover:text-accent duration-300 ease-linear"
             href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebook />
           </a>
-          <a
+          <a className="hover:text-accent duration-300 ease-linear"
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
-          <a
+          <a className="hover:text-accent duration-300 ease-linear"
             href="https://wa.me/08068078495"
             target="_blank"
             rel="noopener noreferrer"
@@ -121,21 +121,21 @@ function Navbar() {
         </div>
       </div>
       {showNav && (
-        <div className="p-6 w-full z-40 bg-accent text-secondary border-t-2 border-primary">
+        <div className="p-6 w-full z-40 bg-primary text-secondary border-t-2 border-secondary">
           <ul className="no-underline flex flex-col gap-[40px] cursor-pointer">
-            <Link onClick={() => setShowNav(false)} to="/">
+            <Link onClick={() => setShowNav(false)} to="/" className="hover:text-hoverGreen duration-300 ease-linear">
               <li className={isActive("/") ? "text-tertiary font-bold" : ""}>
                 Home
               </li>
             </Link>
-            <Link onClick={() => setShowNav(false)} to="/about">
+            <Link onClick={() => setShowNav(false)} to="/about" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={isActive("/about") ? "text-tertiary font-bold" : ""}
               >
                 About
               </li>
             </Link>
-            <Link onClick={() => setShowNav(false)} to="/tripCatalog">
+            <Link onClick={() => setShowNav(false)} to="/tripCatalog" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
                   isActive("/tripCatalog") ? "text-tertiary font-bold" : ""
@@ -144,7 +144,7 @@ function Navbar() {
                 Trip Catalogue
               </li>
             </Link>
-            <Link onClick={() => setShowNav(false)} to="/tourReview">
+            <Link onClick={() => setShowNav(false)} to="/tourReview" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
                   isActive("/tourReview") ? "text-tertiary font-bold" : ""
@@ -153,7 +153,7 @@ function Navbar() {
                 Tour Review
               </li>
             </Link>
-            <Link onClick={() => setShowNav(false)} to="/contact">
+            <Link onClick={() => setShowNav(false)} to="/contact" className="hover:text-hoverGreen duration-300 ease-linear">
               <li
                 className={
                   isActive("/contact") ? "text-tertiary font-bold" : ""

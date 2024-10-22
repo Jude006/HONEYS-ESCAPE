@@ -69,7 +69,7 @@ const HomeSection2 = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }} // Staggered animation
             >
               <div className="justify-center flex">
-                <p className="text-center py-3 px-14 bg-accent text-secondary rounded-full">
+                <p className="text-center py-3 px-14 bg-accent text-primary rounded-full">
                   {item.date}
                 </p>
               </div>
@@ -92,7 +92,7 @@ const HomeSection2 = () => {
                 ))}
               </div>
               <div className="flex justify-center cursor-pointer" onClick={() => openPopup(item)}>
-                <Button title="View Details..." bg="bg-accent" color="text-secondary" />
+                <Button title="View Details..." bg="bg-accent" color="text-primary" />
               </div>
             </motion.div>
           ))}

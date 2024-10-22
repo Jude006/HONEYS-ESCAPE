@@ -67,14 +67,14 @@ const Testimonies = () => {
         <div className="absolute z-20 md:-left-10 -left-6 top-[50%] transform -translate-y-1/2">
           <FaArrowLeft
             size={30}
-            className="cursor-pointer bg-accent text-secondary p-2 rounded-full"
+            className="cursor-pointer bg-accent text-primary p-2 rounded-full"
             id="prev-button"
           />
         </div>
         <div className="absolute z-20 md:-right-14 -right-7  top-[50%] transform -translate-y-1/2">
           <FaArrowRight
             size={30}
-            className="cursor-pointer bg-accent text-secondary p-2 rounded-full"
+            className="cursor-pointer bg-accent text-primary p-2 rounded-full"
             id="next-button"
           />
         </div>
@@ -119,12 +119,12 @@ const Testimonies = () => {
 
                 {/* Semi-transparent Overlay */}
                 <div className="absolute h-[20vh] font-Montserrat bg-primary bg-opacity-70 w-full bottom-0 flex flex-col justify-center px-4 py-6">
-                  <div className="text-white">
+                  <div className="text-secondary">
                     <p className="italic font-Montserrat">"{testimony.text}"</p>
                     <h4 className="mt-2 font-bold font-poppins">
                       {testimony.name}
                     </h4>
-                    <span className="block text-sm text-gray-200">
+                    <span className="block text-sm text-accent">
                       {testimony.date}
                     </span>
                   </div>

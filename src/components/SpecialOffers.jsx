@@ -15,7 +15,7 @@ function SpecialOffers() {
   };
 
   return (
-    <section className="py-16 bg-gray-100 text-primary font-Montserrat">
+    <section className="py-16 bg-secondary text-primary font-Montserrat">
      
 
       <div className="container mx-auto px-4">

@@ -55,7 +55,7 @@ function ContactSection2() {
         >
           {reviews.map((review, index) => (
             <SwiperSlide key={index} className="flex justify-center items-center">
-              <div className="bg-white shadow-lg rounded-lg p-8 text-center">
+              <div className="bg-secondary shadow-lg rounded-lg p-8 text-center">
                 <img
                   src={review.image}
                   alt={review.name}

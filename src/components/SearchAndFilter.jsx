@@ -186,7 +186,7 @@ function SearchAndFilter() {
           {currentItems.map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg flex flex-col transition-transform"
+              className="bg-primary text-secondary p-6 rounded-lg shadow-lg flex flex-col transition-transform"
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
@@ -200,12 +200,12 @@ function SearchAndFilter() {
               <h3 className="text-lg font-bold text-tertiary mb-2">
                 {item.name}
               </h3>
-              <p className="text-sm text-gray-500">{item.duration}</p>
+              <p className="text-sm text-accent">{item.duration}</p>
               <p className="text-lg font-bold text-tertiary">${item.price}</p>
               <p className="text-yellow-500">Rating: {item.rating} stars</p>
               <motion.button
                 onClick={() => setShowModal(item)}
-                className="mt-auto py-2 px-4 bg-tertiary text-secondary bg-accent rounded-md transition"
+                className="mt-auto py-2 px-4 bg-tertiary text-primary bg-secondary rounded-md transition"
                 whileHover={{ 
                   scale: 1.05,
                   boxShadow: "0px 4px 10px rgba(32, 149, 174, 0.2)",
@@ -258,7 +258,7 @@ function SearchAndFilter() {
         {/* Modal for Detailed View */}
         {showModal && (
           <motion.div
-            className="fixed inset-0 z-30 bg-black cursor-pointer bg-opacity-25 w-full h-screen backdrop-blur-sm flex justify-center items-center"
+            className="fixed inset-0 z-30 bg-primary cursor-pointer bg-opacity-30 w-full h-screen backdrop-blur-sm flex justify-center items-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}

@@ -38,12 +38,12 @@ const HomeSection4 = () => {
                   alt={item.name}
                   className="object-cover h-full w-full rounded-lg shadow-lg" // Added rounded corners and shadow for image
                 />
-                <h1 className="absolute bottom-8 text-secondary left-6 font-poppins md:text-xl text-lg bg-accent bg-opacity-75 p-2 rounded"> {/* Added background for better visibility */}
+                <h1 className="absolute bottom-8 text-primary left-6 font-poppins md:text-xl text-lg bg-secondary  bg-opacity-75 p-2 rounded"> {/* Added background for better visibility */}
                   {item.name}
                 </h1>
               </div>
               <div className="font-Montserrat flex flex-col gap-3 bg-secondary bg-opacity-25 shadow p-4 rounded-lg"> {/* Padding and rounded corners for the card */}
-                <h3 className="text-xl font-bold text-accent mt-6">
+                <h3 className="text-xl font-bold text-hoverGreen mt-6">
                   {item.amount}
                 </h3>
                 <h2 className="flex gap-2 my-2 md:text-xl text-lg">
